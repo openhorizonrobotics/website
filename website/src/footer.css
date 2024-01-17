@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+
+.Footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+/*.footerContainer {
+  position: relative;
+}
+
+.Footer {
+  background: '#3074FA';
+            padding: '20px';
+            color: 'white';
+            text-align: 'left';
+            width: '1173.47px';
+            height: '262.78px';
+            position: 'absolute';
+            top: '1108.41px';
+            left: '137.6px';
+            border-radius: '6px';
+}
+
+.updatesText {
+  color: '#FF7704';
+  fontFamily: 'Inter';
+  fontSize: '16px';
+  fontWeight: 500;
+  lineHeight: '20px';
+  letterSpacing: '0em';
+  textAlign: 'left';
+  top: '1151.75px';
+  left: '285.2px';
+  width: '178px';
+  height: '20px';
+}
+
+.newsletterText {
+  font-size: 'Inter';
+  font-size: '26px';
+  font-weight: 700;
+  line-height: '32px';
+  letter-spacing: '0em';
+  text-align: 'left';
+  width: '257px';
+  height: '32px';
+  top: '1182.14px';
+  left: '277.81px';
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 10px; /* Adjust the margin as needed */
+/*}
+
+.searchInput {
+  width: 284.95px;
+  height: 48.45px;
+  border-radius: 7.39px;
+  border: 0.82px solid #ccc;
+  outline: none;
+  padding: 5px;
+}
+
+.submitButton {
+  width: 141.24px;
+  height: 47.63px;
+  border-radius: 5.75px;
+  background: orange;
+  color: white;
+  border: 0.82px solid #FF7704;
+  cursor: pointer;
+  margin-left: 10px; /* Adjust the margin as needed 
+}*/
