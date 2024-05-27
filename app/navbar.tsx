@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import React from 'react'
-
+import DarkModeToggele from '../components/ToggleDark'
 function Navbar() {
     const pathname = usePathname();
     return (
@@ -21,6 +21,7 @@ function Navbar() {
                     Contact Us
                 </Link>
             </ul>
+            <DarkModeToggele  ></DarkModeToggele>
         </div>
     )
 }
