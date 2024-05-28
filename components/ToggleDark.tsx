@@ -1,6 +1,5 @@
 "use client";
-
-import { useEffect, useState } from "react";
+import { CSSProperties, useEffect, useState } from "react";
 import { useTheme } from "next-themes";
 import styles from "./ToggleDark.module.css";
 
@@ -12,16 +11,18 @@ const DarkModeToggle = () => {
         setIsMounted(true);
     }, []);
 
-    const getGreenPosition = () => {
-        if (!isMounted) return null; // Don't apply styles on server-side rendering
-            return theme === "light" ? { right: "2px" } : { left: "2px" };
-        }
+    const getGreenPosition = (): CSSProperties | null => {
+        if (!isMounted) return null;
+        return theme === "light" ? { right: "2px" } : { left: "2px" };
+    }
+
+    const greenPosition = getGreenPosition();
 
     return (
         <div className={styles.container}>
             <div className={styles.icon} onClick={() => setTheme("dark")}>🌙</div>
             <div className={styles.icon} onClick={() => setTheme("light")}>🔆</div>
-            <div className={styles.green} style={getGreenPosition()} />
+            {greenPosition && <div className={styles.green} style={greenPosition} />}
         </div>
     );
 };
