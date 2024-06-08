@@ -1,0 +1,25 @@
+@media only screen and (max-width: 600px) {
+    .heading {
+        font-size: 22px;
+    }
+
+    .welcome {
+        font-size: 13px;
+    }
+
+    .discover {
+        font-size: 13px;
+    }
+
+    .bottomheading {
+        font-size: 22px;
+    }
+
+    .bottomtext {
+        font-size: 13px;
+    }
+}
+
+.welcome {
+    max-width: 500px;
+}

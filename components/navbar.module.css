@@ -1,0 +1,12 @@
+@media only screen and (max-width: 600px) {
+    .labels {
+        font-size: 11px;
+        margin: 0 10px 0 10px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .labels {
+        margin: 0 25px 0 25px;
+    }
+}
